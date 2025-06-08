@@ -16,7 +16,7 @@
 
 • Included instructions for the PCB manufacturer to drill a PCB cavity beneath the IC footprint to meet physical dimensions and thermal management requirements of the GaN device, ensuring efficient heat transfer and mechanical stability.
 
-• With a module like this is possible to achieve a received power of -103.26 dBm in a receiver station that is at 1000 km assuming a transmitter antenna with a gain of 10dBi, a transmitted power of 30 dBm, a receiver antenna gain of 30 dBi at 11 GHz. 
+• With a module like this is possible to achieve a received power of -82.26 dBm in a receiver station that is at 1000 km assuming the following link:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cdcortesr/RF-Power-Amplifier-11GHz-/refs/heads/main/LinkCalculation.png">
@@ -24,5 +24,12 @@
   <img alt="a." src="https://raw.githubusercontent.com/cdcortesr/RF-Power-Amplifier-11GHz-/refs/heads/main/LinkCalculation.png">
 </picture>
 
+• An Energy per bit to noise power spectral density ratio of 8.70 dB allows for a BER of 10^-4 using a modulation scheme like QPSK.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/PSK_BER_curves.svg/800px-PSK_BER_curves.svg.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/PSK_BER_curves.svg/800px-PSK_BER_curves.svg.png">
+  <img alt="a." src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/PSK_BER_curves.svg/800px-PSK_BER_curves.svg.png">
+</picture>
 
 
