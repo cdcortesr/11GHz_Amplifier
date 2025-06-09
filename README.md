@@ -24,7 +24,7 @@
   <img alt="a." src="https://raw.githubusercontent.com/cdcortesr/RF-Power-Amplifier-11GHz-/refs/heads/main/LinkCalculation.png">
 </picture>
 
-• An Energy per bit to noise power spectral density ratio of 8.70 dB allows for a BER of 10^-4 using a modulation scheme like QPSK.
+• An Energy per bit to noise power spectral density ratio of 8.70 dB allows for a BER of 10^-4 using a modulation scheme like QPSK. Furhter BER reduction can be obtained by using Forward Error Correction such as Reed Solomon Codes.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/PSK_BER_curves.svg/800px-PSK_BER_curves.svg.png">
